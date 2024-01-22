@@ -1,3 +1,3 @@
 # LeetCode
 
-I post random stuffs here !!
+I post random leetcode solns. here !!
