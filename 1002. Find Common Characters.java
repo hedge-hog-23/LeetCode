@@ -8,7 +8,7 @@ class Solution {
                 ct[c-'a']++;
             }
             for(int i=0;i<26;i++){
-                common[i] = Math.min(common[i],ct[i]);
+                common[i] = Math.min(common[i],ct[i]); 
             }
         }
         List<String> ans = new ArrayList<>();
