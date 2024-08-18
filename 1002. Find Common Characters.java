@@ -1,7 +1,7 @@
 class Solution {
     public List<String> commonChars(String[] words) {
         int[] common = new int[26];
-        Arrays.fill(common,Integer.MAX_VALUE);
+        Arrays.fill(common,Integer.MAX_VALUE); 
         for(String s : words){
             int[] ct = new int[26];
             for(char c : s.toCharArray()){
